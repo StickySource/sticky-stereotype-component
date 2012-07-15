@@ -17,12 +17,13 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-
 /**
- * This stereotype is used to identify components that make up the StickyCode framework. 
+ * INTERNAL USE ONLY, this stereotype is used to identify components that make up the StickyCode framework and may disappear at any
+ * time.
  * 
- * <p>In particular Guice which does not have dependency resolution requires that framework elements are set up before use.
- * This annotation allows identification of the framework for use in the parent injector.
+ * <p>
+ * In particular Guice which does not have dependency resolution requires that framework elements are set up before use. This
+ * annotation allows identification of the framework for use in the parent injector.
  * </p>
  */
 @Target(ElementType.TYPE)
