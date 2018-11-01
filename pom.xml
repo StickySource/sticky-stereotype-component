@@ -11,7 +11,7 @@
 
   <groupId>net.stickycode.stereotype</groupId>
   <artifactId>sticky-stereotype-component</artifactId>
-  <version>3.2-SNAPSHOT</version>
+  <version>3.2</version>
   <packaging>jar</packaging>
 
   <name>sticky-stereotype-component-3</name>
@@ -23,7 +23,7 @@
   <scm>
     <connection>${git.url}</connection>
     <developerConnection>${git.url}</developerConnection>
-    <tag>HEAD</tag>
+    <tag>sticky-stereotype-component-3.2</tag>
   </scm>
 
   <properties>
